@@ -7,14 +7,10 @@ li.active a {
 }
 
 section.main {
-  background-image: url("Imagenes/dark-header.png");
+  background-image: url("https://i.pinimg.com/originals/00/90/64/0090646567e38db86df5e91df202aab2.png");  
   background-repeat: no-repeat;
   background-size: cover;
-  height: calc(100vh - 128px);
-}
-
-section.hero {
-  background: rgba(37, 37, 37, 87%);
+  height: calc(100vh - 112px);
 }
 
 section.paralax {
