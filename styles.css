@@ -13,11 +13,10 @@ section.main {
   height: calc(100vh - 112px);
 }
 
-section.paralax {
-  background-image: url("Imagenes/paralax-trapeadores.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+img.eleccion{
+    height: -webkit-fill-available;
+    object-fit: cover;
+    object-position: right;
 }
 
 .wpp {
@@ -31,9 +30,9 @@ link[rel="icon"] {
 }
 
 .mobile-menu {
-    transition: all 0.3s ease-in-out;
-    max-height: 0;
-    overflow: hidden;
+  transition: all 0.3s ease-in-out;
+  max-height: 0;
+  overflow: hidden;
 }
 
 .mobile-menu.open {
